@@ -1,0 +1,14 @@
+.footer{
+    background-color: var(--cinza);
+    text-align: center;
+}
+
+.footer__logo{
+    margin: 20px auto;
+}
+
+.coypyright{
+    text-align: center;
+    color: var(--branco);
+    font-size: 15px;
+}

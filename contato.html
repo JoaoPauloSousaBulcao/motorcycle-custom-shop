@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <title>Contato | Moto Custom Shop</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img class="navbar__logo" src="./assets/img/logo_moto.png" alt="">
+            <h2 class="navbar__title">Motorcycle Custom Shop</h2>
+            <div>
+                <input class="navbar__check__menu--hamburguer" id="menu--hamburguer" type="checkbox">
+                <label for="menu--hamburguer">
+                    <span class="navbar__buttom__menu--hamburguer"><i class="uil uil-bars"></i></span>
+                </label>
+                <ul class="navbar__lista">
+                    <li class="navbar__item__lista"><a class="navbar__link" href="./index.html">Home</a></li>
+                    <li class="navbar__item__lista"><a class="navbar__link" href="./galeria.html">Galeria</a></li>
+                    <li class="navbar__item__lista"><a class="navbar__link" href="#">Contato</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main class="contact">
+        
+            <h3 class="secunde__title">Contato</h3>
+            <p class="paragraph contact__paragraph">Nos envie sua ideia ou duvida para trocarmos uma ideia.</p>
+            <form action="" class="contact__form">
+                <label for="nome"><h4 class="contact__label__title">Nome:</h4></label>
+                <input class="contact__input" id="nome" type="text">
+                <label for="telefone"><h4 class="contact__label__title">Telefone:</h4></label>
+                <input class="contact__input" id="telefone" type="text">
+                <label for="whatsapp"><h4 class="contact__label__title">Whatsapp</h4></label>
+                <input type="radio" id="whatsapp--sim" name="whatsapp" value="sim">
+                <label for="whatsapp--sim">SIM</label>  
+                <input type="radio" id="whatsapp--nao" name="whatsapp" value="nao">
+                <label for="whatsapp--nao">NÃO</label>
+                <label for="e-mail"><h4 class="contact__label__title">E-mail:</h4></label>
+                <input class="contact__input" id="e-mail" type="email">
+                <label for="text"><h4 class="contact__label__title">Mensagem:</h4></label>
+                <textarea class="contact__text--area" name="text" id="text"  style="resize: none"></textarea><br>
+                <input class="contact__input--buttom" type="submit" value="Enviar">
+            </form>
+        
+    </main>
+
+    <footer class="section__standart footer">
+        <img class="footer__logo" src="./assets/img/logo_moto.png" alt="">
+        <p class="coypyright">&copy; Copyright Moto Custom Shop - 2023</p>
+    </footer>
+
+
+
+</body>
+</html>

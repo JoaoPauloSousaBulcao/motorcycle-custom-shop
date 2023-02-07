@@ -1,0 +1,18 @@
+.banner__home{
+    text-align: center;
+}
+
+.banner__slide{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.banner__img{
+    height: 650px;
+}
+
+@media (max-width: 450px){
+    .banner__img{
+        height: 200px;
+    }
+}

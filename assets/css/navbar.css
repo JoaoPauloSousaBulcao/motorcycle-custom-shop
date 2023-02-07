@@ -1,0 +1,111 @@
+@import "variaveis.css";
+
+.navbar{
+    background-color: var(--cinza);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+     font-size: 32px;
+}
+
+.navbar__title{
+    color: var(--branco);
+    font-size: 28px;
+    font-family: var(--fonte--principal);
+}
+
+
+
+.navbar__lista{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item__lista{
+    padding-right: 20px;
+}
+
+.navbar__link{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--fonte--principal);
+}
+
+.navbar__link:hover{
+    color: var(--vermelho);
+}
+
+.navbar__check__menu--hamburguer,
+.navbar__buttom__menu--hamburguer,
+.menu--hamburguer{
+    display: none;
+}
+
+
+
+.navbar__buttom__menu--hamburguer{
+    margin: 10px;
+    color: var(--branco);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    
+    .navbar__lista{
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        padding: 10px;
+        z-index: 999;
+    }
+
+    .navbar__item__lista{
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .navbar__buttom__menu--hamburguer,
+    .menu--hamburguer{
+        display: block;
+    }
+    
+    .navbar__check__menu--hamburguer:checked ~ .navbar__lista{
+        display: block;
+        width: 100%;
+        background-color: var(--cinza);
+        text-align: center;
+        
+    }
+}
+
+
+
+
+
+@media (max-width: 450px){
+    .navbar__logo{
+        height: 36px;
+    }
+
+    .navbar__title{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .navbar__lista{
+        top: 80px;
+    }
+}

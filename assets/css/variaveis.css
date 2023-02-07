@@ -1,0 +1,29 @@
+:root{
+    --cinza:#555555;
+    --cinza--claro:#d8d8d8;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --vermelho: #f12b2b;
+    --laranja: #f0522b;
+
+
+    --fonte--principal: "Anton";
+    --fonte--secundaria: "Roboto";
+}
+
+.secunde__title{
+    font-size: 28px;
+    font-family: var(--fonte--principal);
+
+}
+
+.paragraph{
+    font-size: 24px;
+    font-family: var(--fonte--secundaria);
+}
+
+@media (max-width: 450px){
+    .paragraph{
+        font-size: 18px;
+    }
+}

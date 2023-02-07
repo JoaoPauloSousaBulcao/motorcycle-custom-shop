@@ -1,0 +1,24 @@
+@import "navbar.css";
+@import "banner.css";
+@import "about.css";
+@import "location.css";
+@import "footer.css";
+
+@import "gallery.css";
+
+@import "contact.css";
+
+.section__standart{
+    padding: 30px;
+}
+
+.secunde__title{
+    font-size: 28px;
+    font-family: var(--fonte--principal);
+}
+
+@media (max-width: 450px){
+    .section__standart{
+        padding: 15px;
+    }
+}

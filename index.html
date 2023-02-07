@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <title>Home | Motor Custom Shop</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img class="navbar__logo" src="./assets/img/logo_moto.png" alt="">
+            <h2 class="navbar__title">Motorcycle Custom Shop</h2>
+            <div>
+                <input class="navbar__check__menu--hamburguer" id="menu--hamburguer" type="checkbox">
+                <label for="menu--hamburguer">
+                    <span class="navbar__buttom__menu--hamburguer"><i class="uil uil-bars"></i></span>
+                </label>
+                <ul class="navbar__lista">
+                    <li class="navbar__item__lista"><a class="navbar__link" href="#">Home</a></li>
+                    <li class="navbar__item__lista"><a class="navbar__link" href="./galeria.html">Galeria</a></li>
+                    <li class="navbar__item__lista"><a class="navbar__link" href="./contato.html">Contato</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="section__standart banner__home">
+            <div class="banner__slide">
+                <div class="swiper">
+                    
+                    <div class="swiper-wrapper">
+                      
+                      <div class="swiper-slide"><img class="banner__img" src="./assets/img/slide1.jpg" alt=""></div>
+                      <div class="swiper-slide"><img class="banner__img" src="./assets/img/slide2.jpg" alt=""></div>
+                      <div class="swiper-slide"><img class="banner__img" src="./assets/img/slide3.jpg" alt=""></div>
+                      <div class="swiper-slide"><img class="banner__img" src="./assets/img/slide4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img class="banner__img" src="./assets/img/slide5.jpg" alt=""></div>
+                      
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section class="section__standart about">
+            <h3 class="secunde__title about__title">Sobre nós</h3>
+            <p class="paragraph about__paragraph">Nós somos uma mecânica que queremos mostrar nossas customizações feitas ao 
+                longo desses 12 anos que atuamos no ramo automobilistico. Fazemos consultoria com o cliente, elaboramos o 
+                projeto e aplicamos as customizações solicitadas pelo mesmo.about</p>
+    
+                <div class="about__imagens">
+                    <img class="about__image1" src="./assets/img/about--img1.jpg" alt="">
+                    <img class="about__image2" src="./assets/img/about--img2.jpg" alt="">
+                    <img class="about__image3" src="./assets/img/about--img3.jpg" alt="">
+                </div>
+        </section>
+    </main>
+    
+    <section class="section__standart location">
+        <h3 class="secunde__title location__title">Nossa localização</h3>
+        <p class="paragraph location__paragraph">Venha nos conhecer e fazer um orçamento conosco, nos mostre qual o seu estilo e 
+            lhe mostramos como deixar sua moto irada pra combinar com você. Você também pode nos enviar uma mesagem na aba contato.
+        </p>
+        <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15925.450285539817!2d-38.5426197!3d-3.730902!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x554cd6c354759b4b!2sGarage%20Custom%20Motorcycles!5e0!3m2!1spt-BR!2sbr!4v1675709456862!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer class="section__standart footer">
+        <img class="footer__logo" src="./assets/img/logo_moto.png" alt="">
+        <p class="coypyright">&copy; Copyright Moto Custom Shop - 2023</p>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 1,
+            autoplay: {
+              delay: 5000,
+            },
+        });
+           
+    </script>
+</body>
+</html>
